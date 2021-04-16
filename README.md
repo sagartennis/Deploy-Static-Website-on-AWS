@@ -6,7 +6,7 @@ Develop a Static website using AWS services like S3 (Simple Storage Service) and
 
 a. From the S3 dashboard, select the **create bucket** option. 
 b. In the **bucket settings**, make sure to uncheck **Block all publick access**. This is highly required since we are ***Hosting*** the website. 
-c. ***Hosting*** is the service used by user/organization to make thier website accessible via the World Wide Web (WWW.
+c. ***Hosting*** is the service used by user/organization to make thier website accessible via the World Wide Web (WWW).
 d. Create bucket
 
 
