@@ -38,3 +38,19 @@ c. Paste this code
 If the website was not hosted, then this step was not required as the CloduFront service will automatically update the policy.
 
 
+## STEP 4 - CONFIGURE S3 BUCKET ##
+
+
+a. Go to the **Properties** tab in the S3 bucket and scoll down to **Static Website Hosting**. Click on Edit. 
+b. **Enable** static website hostinig. 
+c. In the index and error documents, enter **index.html**. 
+
+
+## STEP 5 - DISTRIBUTE WEBSITE OVER CLOUDFRONT ##
+
+
+a. In the CloudFront distribution - Select the S3 bucket name for the **Origin Domain Name**. 
+b. Yes for **Restrict bucket Access**.
+c. Yes, Update Bucket Policy for **Origin Access Identity**.
+d. Yes for **Grant Permission**. 
+e. Set default root Object to **index.html**.
