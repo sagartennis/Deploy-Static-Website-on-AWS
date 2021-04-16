@@ -12,7 +12,7 @@ d. Create bucket
 
 ## STEP 2 - UPLOAD FILES TO S3 BUCKET ##
 
-a. Download [starter code] (https://drive.google.com/file/d/15vQ7-utH7wBJzdAX3eDmO9ls35J5_sEQ/view) for the static website. 
+a. Download (starter code) [https://drive.google.com/file/d/15vQ7-utH7wBJzdAX3eDmO9ls35J5_sEQ/view) for the static website].
 b. Click on Add files and add the **index.html** first and then make sure to add the remaining folders one by one. This will make sure that **index.html** will remain the root file. 
 
 
